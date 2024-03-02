@@ -64,7 +64,7 @@ public class BankOperations {
                         "User " + userName + " sucessfully  withdrew " + withdrawAmount + " amount from: " + HDFC_BANK);
             } else {
                 System.out.println("User " + userName + "'s" + "  withdrawal of amount " + withdrawAmount
-                        + " failed from: " + HDFC_BANK + "as avaliable cash :" + hdfcATM.getAvaliableCash());
+                        + " failed from: " + HDFC_BANK + " as avaliable cash :" + hdfcATM.getAvaliableCash());
             }
         });
         // Bank employee replenishes cash in HDFC ATM
